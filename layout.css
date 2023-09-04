@@ -1,7 +1,9 @@
 ul{
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  background-color: blue;
+  margin: 4px;
+  padding: 2px;
+  border: 1px;
 
 }
 

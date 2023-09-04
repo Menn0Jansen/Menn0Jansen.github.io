@@ -1,6 +1,6 @@
 ul{
   list-style-type: none;
-  background-color: blue;
+  background-color: #00aecd;
   margin: 4px;
   padding: 2px;
   border: 1px;
@@ -8,6 +8,6 @@ ul{
 }
 
 title{
-  background-color: green;
+  background-color: #04aa43;
 
 }

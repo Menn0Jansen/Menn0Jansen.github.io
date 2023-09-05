@@ -1,7 +1,8 @@
 ul{
    list-style-type: none;
    padding: 0;
-   margin: 5px;
+   margin: 0;
+   border: 5px;
    background-color: lightgrey;
   
 }
@@ -9,7 +10,8 @@ ul{
 p{
    list-style-type: none;
    padding: 0;
-   margin: 10px;
+   margin: 0;
+   border: 10px;
    background-color: beige;
 
 }

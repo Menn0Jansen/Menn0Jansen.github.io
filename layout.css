@@ -1,7 +1,15 @@
 ul{
    list-style-type: none;
-   margin: 0;
    padding: 0;
+   margin: 5px;
    background-color: lightgrey;
   
+}
+
+p{
+   list-style-type: none;
+   padding: 0;
+   margin: 10px;
+   background-color: beige;
+
 }

@@ -1,13 +1,6 @@
 ul{
-  list-style-type: none;
-  background-color: #00aecd;
-  margin: 4px;
-  padding: 2px;
-  border: 1px;
-
-}
-
-title{
-  background-color: #04aa43;
-
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+  
 }

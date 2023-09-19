@@ -27,5 +27,6 @@ p{
    padding: 5px;
    margin: 0;
    border: 5px blanchedalmond;
+   border-style: solid;
    background-color: beige;
 }

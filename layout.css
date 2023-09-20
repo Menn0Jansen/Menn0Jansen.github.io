@@ -3,10 +3,12 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
+  position: sticky;
 }
 
 li {
   float: left;
+  position: sticky;
 }
 
 li a {
@@ -16,11 +18,13 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
   background-color: #333;
+  position: sticky;
 }
 
 li a:hover {
   background-color: #111;
   text-decoration: underline;
+  position: sticky;
 }
 
 p{

@@ -38,9 +38,13 @@ p{
 img{
   heigth: 50px;
   width: 100px;
+  position: absolute;
+  left: 300px;
 }
 
 iframe{
   height: 50px;
   width: 100px;
+  position: absolute;
+  left: 300px;
 }

@@ -32,11 +32,11 @@ p{
 }
 
 img{
-  heigth: 10px;
-  width: 20px;
+  heigth: 50px;
+  width: 100px;
 }
 
 iframe{
-  height: 10px;
-  width: 20px;
+  height: 50px;
+  width: 100px;
 }

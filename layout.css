@@ -38,8 +38,7 @@ p{
 img{
   heigth: 50px;
   width: 100px;
-  position: absolute;
-  left: 300px;
+  float: right;
 }
 
 iframe{

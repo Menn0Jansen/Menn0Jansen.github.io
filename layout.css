@@ -1,21 +1,21 @@
-ul {
+.header {
+  padding: 30px;
+  text-align: center;
+  background: white;
+}
+
+.topnav {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   position: sticky;
   background-color: #333;
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-li {
-  float: left;
   position: sticky;
+  float: left;
 }
 
-li a {
+.topnav a {
   display: block;
   color: white;
   text-align: center;
@@ -25,14 +25,14 @@ li a {
   position: sticky;
 }
 
-li a:hover {
+.topnav a:hover {
   background-color: #808080;
   text-decoration: underline;
   position: sticky;
   color: black;
 }
 
-li a.active {
+.topnav a.active {
   background-color: #808080;
   color: black;
 }

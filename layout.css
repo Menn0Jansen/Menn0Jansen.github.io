@@ -25,6 +25,7 @@ li a:hover {
   background-color: #A9A9A9;
   text-decoration: underline;
   position: sticky;
+  color: black;
 }
 
 li a.active {

@@ -49,14 +49,14 @@ body {
 }
 
 img {
-  width: 70%;
-  lenght: 70%;
+  width: 35%;
+  lenght: 35%;
   padding: 20px;
 }
 
 .card {
   background-color: white;
-  padding: 5px;
+  padding: 20px;
   margin-top: 20px;
 }
 

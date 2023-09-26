@@ -10,6 +10,12 @@ body {
   background: white;
 }
 
+#kleurmodellenheader {
+  padding: 30px;
+  text-align: center;
+  background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+}
+
 .topnav {
   overflow: hidden;
   background-color: #333;

@@ -1,99 +1,99 @@
-body {
+body { /*de body van elke pagina*/
   font-family: Arial;
   padding: 10px;
   background: #f1f1f1;
 }
 
-.header {
+.header { /*de header van elke pagina*/
   padding: 30px;
   text-align: center;
   background: white;
 }
 
-#kleurmodellenheader {
+#kleurmodellenheader { /*specifieke id voor de header van kleurmodellen pagina*/
   padding: 30px;
   text-align: center;
   background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
 }
 
-.topnav {
+.topnav { /*de navigatie-menu-balk*/
   overflow: hidden;
   background-color: #333;
   position: sticky;
   top: 0;
 }
 
-.topnav a {
+.topnav a { /*de links in de navigatiebalk*/
   float: left;
-  display: block;
+  display: block; 
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
-.topnav a:hover {
+.topnav a:hover { /*wat er gebeurt wanneer je over een navbar link hangt met je muis*/
   background-color: #808080;
   text-decoration: underline;
   color: black;
 }
 
-.topnav a.active {
+.topnav a.active { /*wanneer je op een pagina bent, veranderd de kleur van die link*/
   background-color: #808080;
   color: black;
 }
 
-.leftcolumn {   
+.leftcolumn { /*de linker-column van elke pagina*/  
   float: left;
   width: 69%;
 }
 
-.rightcolumn {
+.rightcolumn { /*de rechter-column van elke pagina*/
   float: right;
-  width: 29%;
+  width: 29%; 
   background-color: #f1f1f1;
   padding-left: 20px;
 }
 
-img {
+img { /*opmaak van images*/
   width: 35%;
   lenght: 35%;
   padding: 10px;
 }
 
-.card {
+.card { /*de opmaak van een tekstvlak*/
   background-color: white;
   padding: 20px;
   margin-top: 20px;
 }
 
-.row::after {
+.row::after { /*zorgt dat inhoud tekst gescheiden is van header en footer*/
   content: "";
   display: table;
   clear: both;
 }
 
-.footer {
+.footer { /*de ompaak van de footer:naam wordt hier gegeven*/
   padding: 20px;
   text-align: center;
   background: #ddd;
   margin-top: 20px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 800px) { /*zorgt ervoor dat als scherm bepaalde grootte is, dan past de site zich erop aan*/
   .leftcolumn, .rightcolumn {   
     width: 100%;
     padding: 0;
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 400px) { /*kleinere scherm-grootte*/
   .topnav a {
     float: none;
     width: 100%;
   }
 }
 
-iframe{
+iframe{ /*zorgt ervoor dat iframe appart wordt weergegeven:een block*/
   display: block;
 }

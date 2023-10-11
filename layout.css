@@ -59,6 +59,7 @@ img { /*opmaak van images*/
   width: 35%;
   lenght: 35%;
   padding: 10px;
+  float: left;
 }
 
 .card { /*de opmaak van een tekstvlak*/

@@ -36,6 +36,7 @@ body { /*de body van elke pagina*/
   background-color: #808080;
   text-decoration: underline;
   color: black;
+  display: inline;
 }
 
 .topnav a.active { /*wanneer je op een pagina bent, veranderd de kleur van die link*/

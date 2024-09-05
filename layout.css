@@ -96,6 +96,7 @@ body { /*de body van elke pagina*/
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
 .leftcolumn { /*de linker-column van elke pagina*/  
   float: left;
   width: 69%;

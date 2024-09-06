@@ -16,32 +16,64 @@ body { /*de body van elke pagina*/
   background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
 }
 
-.topnav { /*de navigatie-menu-balk*/
+.navbar {
   overflow: hidden;
   background-color: #333;
-  position: sticky;
-  top: 0;
 }
 
-.topnav a { /*de links in de navigatiebalk*/
+.navbar a {
   float: left;
-  display: block; 
-  color: #f2f2f2;
+  font-size: 16px;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
-.topnav a:hover { /*wat er gebeurt wanneer je over een navbar link hangt met je muis*/
-  background-color: #808080;
-  text-decoration: underline;
-  color: black;
-  display: inline;
+.dropdown {
+  float: left;
+  overflow: hidden;
 }
 
-.topnav a.active { /*wanneer je op een pagina bent, veranderd de kleur van die link*/
-  background-color: #808080;
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
   color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }
 
 /* The dropdown container */
@@ -62,10 +94,7 @@ body { /*de body van elke pagina*/
   margin: 0; /* Important for vertical align on mobile phones */
 }
 
-/* Add a red background color to navbar links on hover */
-.topnav a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
-}
+
 
 /* Dropdown content (hidden by default) */
 .dropdown-content {

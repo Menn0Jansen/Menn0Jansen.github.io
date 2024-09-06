@@ -171,7 +171,7 @@ img { /*opmaak van images*/
 }
 
 @media screen and (max-width: 400px) { /*kleinere scherm-grootte*/
-  .topnav a {
+  .navbar a {
     float: none;
     width: 100%;
   }

@@ -63,7 +63,7 @@ body { /*de body van elke pagina*/
 }
 
 /* Add a red background color to navbar links on hover */
-.navbar a:hover, .dropdown:hover .dropbtn {
+.topnav a:hover, .dropdown:hover .dropbtn {
   background-color: red;
 }
 

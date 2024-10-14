@@ -47,7 +47,7 @@ body { /*de body van elke pagina*/
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
+  background-color: #ddd;
 }
 
 .dropdown-content {
